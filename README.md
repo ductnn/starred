@@ -1,14 +1,14 @@
 # Starred
 
-[![ci](https://github.com/maguowei/starred/actions/workflows/ci.yml/badge.svg)](https://github.com/maguowei/starred/actions/workflows/ci.yml)
-[![Upload Python Package](https://github.com/maguowei/starred/actions/workflows/deploy.yml/badge.svg)](https://github.com/maguowei/starred/actions/workflows/deploy.yml)
+[![ci](https://github.com/ductnn/starred/actions/workflows/ci.yml/badge.svg)](https://github.com/ductnn/starred/actions/workflows/ci.yml)
+[![Upload Python Package](https://github.com/ductnn/starred/actions/workflows/deploy.yml/badge.svg)](https://github.com/ductnn/starred/actions/workflows/deploy.yml)
 
 ## Install
 
 ```bash
 
 $ pip install starred
-$ starred --username maguowei --sort > README.md
+$ starred --username ductnn --sort > README.md
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ Usage: starred [OPTIONS]
 
     creating your own Awesome List used GitHub stars!
 
-    example:     starred --username maguowei --sort > README.md
+    example:     starred --username ductnn --sort > README.md
 
 Options:
     --username TEXT    GitHub username
@@ -42,8 +42,8 @@ $ export GITHUB_TOKEN=yourtoken
 $ starred --username yourname --repository awesome-stars --sort
 ```
 
-- [`maguowei/awesome-stars`](https://github.com/maguowei/awesome-stars)
-- [update awesome-stars every day by GitHub Action](https://github.com/maguowei/awesome-stars/blob/master/.github/workflows/schedules.yml) the example with GitHub Action
+- [`ductnn/awesome-stars`](https://github.com/ductnn/awesome-stars)
+- [update awesome-stars every day by GitHub Action](https://github.com/ductnn/awesome-stars/blob/master/.github/workflows/schedules.yml) the example with GitHub Action
 
 ## FAQ
 
@@ -63,5 +63,5 @@ $ starred --username yourname --repository awesome-stars --sort
 3. Install the master branch version
 
     ```bash
-    $ pip install -e git+https://github.com/maguowei/starred#egg=starred
+    $ pip install -e git+https://github.com/ductnn/starred#egg=starred
     ```

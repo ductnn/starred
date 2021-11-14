@@ -26,6 +26,7 @@ setup(
         'setuptools-rust==0.12.1',
         'click==7.1.2',
         'github3.py==1.3.0',
+        'pytablewriter==0.64.1'
     ],
     entry_points={
         'console_scripts': [

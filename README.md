@@ -18,20 +18,18 @@ $ starred --help
 
 Usage: starred [OPTIONS]
 
-    GitHub starred
-
-    creating your own Awesome List used GitHub stars!
-
-    example:     starred --username ductnn --sort > README.md
+  GitHub starred creating your own Awesome List used GitHub stars! example:
+  starred --username ductnn --sort > README.md
 
 Options:
-    --username TEXT    GitHub username
-    --token TEXT       GitHub token
-    --sort             sort by language
-    --repository TEXT  repository name
-    --message TEXT     commit message
-    --version          Show the version and exit.
-    --help             Show this message and exit.
+  --username TEXT    GitHub username
+  --token TEXT       GitHub token
+  --sort             sort by language
+  --repository TEXT  repository name
+  --message TEXT     commit message
+  --format TEXT      output repository format
+  --version          Show the version and exit.
+  --help             Show this message and exit.
 ```
 
 ## Demo
